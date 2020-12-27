@@ -1,0 +1,9 @@
+[{"student_id": "S-100", "name": "Kelly Kapowski", "address": "13000 Oxnard St., Van Nuys, CA"},
+{"student_id": "S-101", "name": "Samuel Powers", "address": "1438 N. Gower St., Hollywood, CA"},
+{"student_id": "S-102", "name": "Lisa Marie Turtle", "address": "3000 West Alameda St., Burbank, CA"},
+{"student_id": "CR00001", "name": "Jeffrey Spicoli", "address": "11852 Santa Monica Boulevard, Santa Monica, CA"},
+{"student_id": "CR00002", "name": "Stacy Hamilton", "address": "1704 West Manchester Ave, Los Angeles, CA"},
+{"student_id": "CR00003", "name": "Bradley Hamilton", "address": "1704 West Manchester Ave, Los Angeles, CA"},
+{"student_id": "KHS-ID-247991", "name": "Sabrina Spellman", "address": "666 Lost Lane, Greendale, MA"},
+{"student_id": "KHS-ID-247992", "name": "Harvey Kinkle", "address": "17 Forest Ln, Greendale, MA"},
+{"student_id": "KHS-ID-247993", "name": "Rosalin Walker", "address": "132 North Runwood Drive, Greendale, MA"}]
