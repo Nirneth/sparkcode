@@ -105,7 +105,7 @@ object SampleAPP {
     final_df.show(false)
     final_df.printSchema()
     final_df.createOrReplaceTempView("student_report")
-    //final_df.write.json("students_report")
+    final_df.write.json("students_report")
     final_df.write.json("src/main/resources/finaldf_info.json")
 
   }
