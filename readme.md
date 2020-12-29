@@ -57,6 +57,7 @@ src->test->scala->org.norton.SampleAPP:
 
 IsNullEmptyunction: It's a udf that is used in 2 unit test that check's if a column has null or empty values
 SparkSessionTestWrapper: It's a trait that has spark session 
+
 unitTesting: This is the main class that runs 4 unit tests:
 1. Schema validater
 2. Check school name mapped values
