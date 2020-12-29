@@ -71,7 +71,7 @@ object SampleAPP {
 
     // Here removing any duplicates do a broadcast join. We really don't need broadcast join as data set is too small from two json's
     val dropDups_df = testScores_df.dropDuplicates().withColumnRenamed("student_id", "std_id")
-    print("We don't need brodcast Join here: Just doing to differenciate as below we do another join ")
+    print("We don't need brodcast Join here: Just doing to differentiate as below we do another join-- We don't need this (you can comment this line and uncomment below line of code ")
     // If you don't have much compute power please remove use "//" and use bellow code
     val joined_df = dropDups_df.join(broadcast(studentInfo_df),
       dropDups_df("std_id") <=> studentInfo_df("student_id")).drop("std_id")
