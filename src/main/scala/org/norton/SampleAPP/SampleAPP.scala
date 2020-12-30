@@ -98,7 +98,7 @@ object SampleAPP {
     // Here Finally joined and removed and renamed columns that are required as per business requirements
     val final_df = mapping_schoolId_df.join(agg_df, "student_id").withColumnRenamed("name", "student_name")
       .withColumnRenamed("school_id", "school_name")
-      .drop("test_date", "test_id", "test_score")
+      .drop("test_date", "test_id", "test_score").distinct()
     logger.info("Final saving the data")
 
     // Finally data got saved into src/main/resources/finaldf_info.json
